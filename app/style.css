@@ -42,10 +42,11 @@ body {
     #colorPicker1 {
         background-color: black;
         border-style: dotted;
+        border-color: white;
         border-radius: 200px;
-        padding: 200px;
+        padding: 64px;
         position: absolute;
-        left: 50%;
-        top: 50%;
+        left: 36%;
+        top: 45%;
     } 
 }
