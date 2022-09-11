@@ -1,0 +1,39 @@
+* {
+    display: inline;
+}
+title {
+    display: none;
+}
+body {
+    background-color: black;
+}
+
+.show {
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+}
+
+#colorPicker1 {
+    background-color: black;
+    border-style: none;
+}
+#colorPicker2 {
+    background-color: white;
+    border-style: none;
+    float: right;
+}
+
+.secondhalf {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    object-fit: fill;
+    display: inline-block;
+    left: 50%
+}
+
+
