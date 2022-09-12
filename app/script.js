@@ -8,7 +8,7 @@ var secondHalf = document.getElementById("secondHalf")
 bgColorPicker1.addEventListener("input", function(){
     var color = bgColorPicker1.value;
 
-    body.setAttribute("style", "background-color: "+ color)
+    body.setAttribute("style", "background-color: "+ color+"; color: "+ color)
     bgColorPicker1.setAttribute("style", "background-color: "+color)
   }, false);
 
