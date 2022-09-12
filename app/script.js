@@ -5,12 +5,24 @@ var secondHalf = document.getElementById("secondHalf")
 
 
 
-bgColorPicker1.addEventListener("input", function(){
-    var color = bgColorPicker1.value;
+function cp1 (){
+  var color = bgColorPicker1.value;
 
-    body.setAttribute("style", "background-color: "+ color+"; color: "+ color)
-    bgColorPicker1.setAttribute("style", "background-color: "+color)
-  }, false);
+  body.setAttribute("style", "background-color: "+ color+"; color: "+ color)
+  bgColorPicker1.setAttribute("style", "background-color: "+color)
+
+}
+
+bgColorPicker1.addEventListener("input", cp1, false)
+bgColorPicker1.addEventListener("change", cp1, false)
+
+
+// bgColorPicker1.addEventListener("input", function(){
+//     var color = bgColorPicker1.value;
+
+//     body.setAttribute("style", "background-color: "+ color+"; color: "+ color)
+//     bgColorPicker1.setAttribute("style", "background-color: "+color)
+//   }, false);
 
   bgColorPicker2.addEventListener("input", function(){
     var color = bgColorPicker2.value;
